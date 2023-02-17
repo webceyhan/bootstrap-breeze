@@ -64,6 +64,12 @@ class InstallCommand extends Command
         copy(__DIR__ . '/../../stubs/resources/js/app.js', resource_path('js/app.js'));
         copy(__DIR__ . '/../../stubs/resources/js/bootstrap.js', resource_path('js/bootstrap.js'));
 
+        // Remove Tailwind config
+        (new Filesystem)->delete(base_path('tailwind.config.js'));
+
+        // Override PostCSs config without Tailwind
+        copy(__DIR__ . '/../../stubs/postcss.config.js', base_path('postcss.config.js'));
+
         $this->info('Bootstrap Breeze scaffolding installed successfully.');
         $this->comment('Please execute the "npm install && npm run dev" command to build your assets.');
     }
