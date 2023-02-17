@@ -1,6 +1,6 @@
 {
     "name": "webceyhan/bootstrap-breeze",
-    "description": "Laravel Breeze stubs for Vue, Inertia & Bootstrap 5 stack.",
+    "description": "Laravel Breeze stubs for Inertia + Vue 3 + Bootstrap 5 stack.",
     "keywords": ["laravel", "auth", "bootstrap"],
     "license": "MIT",
     "support": {
