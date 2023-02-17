@@ -1,6 +1,6 @@
 {
     "name": "webceyhan/bootstrap-breeze",
-    "description": "Minimal Laravel authentication scaffolding with Vue, Inertia & Bootstrap 5.",
+    "description": "Laravel Breeze stubs for Vue, Inertia & Bootstrap 5 stack.",
     "keywords": ["laravel", "auth", "bootstrap"],
     "license": "MIT",
     "support": {
@@ -9,12 +9,8 @@
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
-        },
-        {
-            "name": "Matt Ralston",
-            "email": "matt@mralston.co.uk"
+            "name": "Evren Ceyhan",
+            "email": "evren@ceyhan.io"
         }
     ],
     "require": {
@@ -45,6 +41,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
