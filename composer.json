@@ -1,6 +1,6 @@
 {
-    "name": "mralston/bootstrap-breeze",
-    "description": "Minimal Laravel authentication scaffolding with Vue, Inertia & Bootstrap. This package is based on laravel/breeze by Taylor Otwell.",
+    "name": "webceyhan/bootstrap-breeze",
+    "description": "Minimal Laravel authentication scaffolding with Vue, Inertia & Bootstrap 5.",
     "keywords": ["laravel", "auth", "bootstrap"],
     "license": "MIT",
     "support": {
@@ -18,10 +18,11 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/filesystem": "^8.42|^9.0",
-        "illuminate/support": "^8.42|^9.0",
-        "illuminate/validation": "^8.42|^9.0"
+        "php": "^8.0.2",
+        "illuminate/console": "^9.21|^10.0",
+        "illuminate/filesystem": "^9.21|^10.0",
+        "illuminate/support": "^9.21|^10.0",
+        "illuminate/validation": "^9.21|^10.0"
     },
     "conflict": {
         "laravel/breeze": "^1.0"
