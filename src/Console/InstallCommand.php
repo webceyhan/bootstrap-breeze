@@ -60,9 +60,9 @@ class InstallCommand extends Command
         (new Filesystem)->copyDirectory(__DIR__ . '/../../stubs/resources/js/Pages', resource_path('js/Pages'));
 
         // Bootstrap ...
-        copy(__DIR__ . '/../../stubs/inertia-vue-bootstrap/resources/css/app.css', resource_path('css/app.css'));
-        copy(__DIR__ . '/../../stubs/inertia-vue-bootstrap/resources/js/app.js', resource_path('js/app.js'));
-        copy(__DIR__ . '/../../stubs/inertia-vue-bootstrap/resources/js/bootstrap.js', resource_path('js/bootstrap.js'));
+        copy(__DIR__ . '/../../stubs/resources/css/app.css', resource_path('css/app.css'));
+        copy(__DIR__ . '/../../stubs/resources/js/app.js', resource_path('js/app.js'));
+        copy(__DIR__ . '/../../stubs/resources/js/bootstrap.js', resource_path('js/bootstrap.js'));
 
         $this->info('Bootstrap Breeze scaffolding installed successfully.');
         $this->comment('Please execute the "npm install && npm run dev" command to build your assets.');
